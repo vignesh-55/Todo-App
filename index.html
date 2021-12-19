@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="title">
+        <p class="todoapp">ToDo App</p>
+    </div>
+    <div class="infoSection">
+        <div class="projectList">
+            <p class="projectTitle">Folders</p>
+            <ul class="projectUl">
+            </ul>
+            <form action="" class="projectForm" data-projectForm>
+                <input type="text" data-projectInput placeholder="PROJECT1" name="projectAdd">
+                <button type="submit" name="projectAdd">Add Folder</button>
+                <!-- <button type="submit" name="deleteProject">Delete All Folder</button> -->
+            </form>
+            <button type="submit" class="deleteProject" name="deleteProject">Delete This Folder</button>
+        </div>
+        <div class="taskList">
+            <p class="listTitle"></p>
+            <div class="listUl">
+                <div class="todoList">
+                     <div class="list1st">
+                        <!-- <input type="checkbox" name="task1" id="task1">
+                        <label for="task1">Task1 
+                             <div class="taskName">Task1</div>
+                             <div class="priority">Medium</div>
+                            <div class="due">10/01/2022</div> 
+                        </label> -->
+                    </div> 
+
+                    <!-- <div class="notes">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam deleniti tenetur consequuntur omnis nesciunt fugit iure itaque rem! A dicta obcaecati maxime, sed incidunt et dignissimos molestiae harum quia quaerat?
+                    </div> -->
+
+                    <!-- <div class="accordion">
+                        <div class="listTop">
+                            <div class="statusCheck">
+                                <input type="checkbox" name="task" id="task">
+                                <label for="task">Task</label>
+                            </div>
+                            <div class="dueDate">2018-08-20</div>
+                            <div class="prioritySet">Medium</div> -->
+
+                           <!-- <input type="checkbox" name="details" id="details">
+                            <label for="details" class="downArrow">&downdownarrows;</label> -->
+
+                            <!-- <div class="buttons">
+                                <span class="editButton">&epar;</span>
+                                <span class="deleteButton">&Dfr;</span>
+                            </div>  -->
+
+                            <!-- <p class="details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex omnis molestias aliquam ullam similique. Culpa possimus placeat impedit veniam voluptate assumenda dolorem ut omnis ab nostrum. Cum dolorum architecto enim.</p> -->
+                        </div>
+            </div>
+            <form action="" class="listForm" data-listForm>
+                <div class="listInput">
+                    <label for="listAdd">Title: </label>
+                    <input type="text" data-listInput-title placeholder="TASK1" name="listAdd">
+                    <!-- <label for="listDetail">Notes: </label>
+                    <input type="text" data-projectInput-details placeholder="Lorem ipsum....."name="listDetail"> -->
+                    <label for="listTime">Set Reminder: </label>
+                    <input type="date" data-projectInput-time required name="listTime"> 
+                    <label for="priority">Set Priority: </label> 
+                    <select name="priority" id="priority" data-listInput-priority>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                    <button class="addList" type="submit">Add List</button>
+                </div>
+            </form>
+            <button class="deleteList" type="submit" name="deleteList">Delete All Lists</button>
+            </div>
+    </div>
+</body>
+</html>
